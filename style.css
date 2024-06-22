@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
     box-sizing: border-box;
     text-decoration: none;
     outline: none;
@@ -9,7 +9,6 @@
 }
 :root{
     --bg-color: #000000;
-    --snd-bg-color: #d5fdd5;
     --text-color: #ffffff;
     --main-color: #c81b66;
     --light-colour: #ffc5de;
@@ -23,8 +22,9 @@ body{
     color: var(--text-color);
 }
 section{
+    width: 100%;
     min-height: 100vh;
-    padding: 10rem 9% 2rem;
+    padding: 10rem 0 2rem 10rem;
 }
 /*Header Section*/
 
@@ -76,6 +76,7 @@ section{
     align-items: center;
 }
 .home-img img{
+
     width: 25vw;
     border-radius: 50%;
     box-shadow: 0 0 25px var(--main-color);
