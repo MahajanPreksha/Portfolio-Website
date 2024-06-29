@@ -202,9 +202,9 @@ span {
     margin-bottom: 3rem;
 }
 .education-container {
+    max-height: min-content;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
     flex-wrap: wrap;
     gap: 20rem;
     padding: 4rem 4rem;
@@ -488,5 +488,8 @@ span {
     .about-img img{
         width: 70vw;
         margin-top: 4rem;
+    }
+    html{
+        font-size: 50%;
     }
 }
